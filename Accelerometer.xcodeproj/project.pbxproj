@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85022F251BFEC96D004EE352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85022F241BFEC96D004EE352 /* AppDelegate.swift */; };
+		85022F271BFEC96D004EE352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85022F261BFEC96D004EE352 /* ViewController.swift */; };
+		85022F2A1BFEC96D004EE352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85022F281BFEC96D004EE352 /* Main.storyboard */; };
+		85022F2C1BFEC96D004EE352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85022F2B1BFEC96D004EE352 /* Assets.xcassets */; };
+		85022F2F1BFEC96D004EE352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85022F2D1BFEC96D004EE352 /* LaunchScreen.storyboard */; };
+		85022F341BFEC96E004EE352 /* Accelerometer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 85022F331BFEC96E004EE352 /* Accelerometer WatchKit App.app */; };
+		85022F3A1BFEC96E004EE352 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85022F381BFEC96E004EE352 /* Interface.storyboard */; };
+		85022F3C1BFEC96E004EE352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85022F3B1BFEC96E004EE352 /* Assets.xcassets */; };
+		85022F431BFEC96E004EE352 /* Accelerometer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 85022F421BFEC96E004EE352 /* Accelerometer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		85022F481BFEC96E004EE352 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85022F471BFEC96E004EE352 /* InterfaceController.swift */; };
+		85022F4A1BFEC96E004EE352 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85022F491BFEC96E004EE352 /* ExtensionDelegate.swift */; };
+		85022F4C1BFEC96E004EE352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85022F4B1BFEC96E004EE352 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85022F351BFEC96E004EE352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85022F191BFEC96D004EE352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85022F321BFEC96E004EE352;
+			remoteInfo = "Accelerometer WatchKit App";
+		};
+		85022F441BFEC96E004EE352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85022F191BFEC96D004EE352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85022F411BFEC96E004EE352;
+			remoteInfo = "Accelerometer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85022F531BFEC96E004EE352 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85022F431BFEC96E004EE352 /* Accelerometer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85022F571BFEC96E004EE352 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				85022F341BFEC96E004EE352 /* Accelerometer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		85022F211BFEC96D004EE352 /* Accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85022F241BFEC96D004EE352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85022F261BFEC96D004EE352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85022F291BFEC96D004EE352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85022F2B1BFEC96D004EE352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85022F2E1BFEC96D004EE352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85022F301BFEC96D004EE352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85022F331BFEC96E004EE352 /* Accelerometer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accelerometer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85022F391BFEC96E004EE352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		85022F3B1BFEC96E004EE352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85022F3D1BFEC96E004EE352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85022F421BFEC96E004EE352 /* Accelerometer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Accelerometer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85022F471BFEC96E004EE352 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		85022F491BFEC96E004EE352 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		85022F4B1BFEC96E004EE352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85022F4D1BFEC96E004EE352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85022F1E1BFEC96D004EE352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85022F3F1BFEC96E004EE352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85022F181BFEC96D004EE352 = {
+			isa = PBXGroup;
+			children = (
+				85022F231BFEC96D004EE352 /* Accelerometer */,
+				85022F371BFEC96E004EE352 /* Accelerometer WatchKit App */,
+				85022F461BFEC96E004EE352 /* Accelerometer WatchKit Extension */,
+				85022F221BFEC96D004EE352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85022F221BFEC96D004EE352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85022F211BFEC96D004EE352 /* Accelerometer.app */,
+				85022F331BFEC96E004EE352 /* Accelerometer WatchKit App.app */,
+				85022F421BFEC96E004EE352 /* Accelerometer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85022F231BFEC96D004EE352 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				85022F241BFEC96D004EE352 /* AppDelegate.swift */,
+				85022F261BFEC96D004EE352 /* ViewController.swift */,
+				85022F281BFEC96D004EE352 /* Main.storyboard */,
+				85022F2B1BFEC96D004EE352 /* Assets.xcassets */,
+				85022F2D1BFEC96D004EE352 /* LaunchScreen.storyboard */,
+				85022F301BFEC96D004EE352 /* Info.plist */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		85022F371BFEC96E004EE352 /* Accelerometer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				85022F381BFEC96E004EE352 /* Interface.storyboard */,
+				85022F3B1BFEC96E004EE352 /* Assets.xcassets */,
+				85022F3D1BFEC96E004EE352 /* Info.plist */,
+			);
+			path = "Accelerometer WatchKit App";
+			sourceTree = "<group>";
+		};
+		85022F461BFEC96E004EE352 /* Accelerometer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				85022F471BFEC96E004EE352 /* InterfaceController.swift */,
+				85022F491BFEC96E004EE352 /* ExtensionDelegate.swift */,
+				85022F4B1BFEC96E004EE352 /* Assets.xcassets */,
+				85022F4D1BFEC96E004EE352 /* Info.plist */,
+			);
+			path = "Accelerometer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85022F201BFEC96D004EE352 /* Accelerometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85022F581BFEC96E004EE352 /* Build configuration list for PBXNativeTarget "Accelerometer" */;
+			buildPhases = (
+				85022F1D1BFEC96D004EE352 /* Sources */,
+				85022F1E1BFEC96D004EE352 /* Frameworks */,
+				85022F1F1BFEC96D004EE352 /* Resources */,
+				85022F571BFEC96E004EE352 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85022F361BFEC96E004EE352 /* PBXTargetDependency */,
+			);
+			name = Accelerometer;
+			productName = Accelerometer;
+			productReference = 85022F211BFEC96D004EE352 /* Accelerometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85022F321BFEC96E004EE352 /* Accelerometer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85022F541BFEC96E004EE352 /* Build configuration list for PBXNativeTarget "Accelerometer WatchKit App" */;
+			buildPhases = (
+				85022F311BFEC96E004EE352 /* Resources */,
+				85022F531BFEC96E004EE352 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85022F451BFEC96E004EE352 /* PBXTargetDependency */,
+			);
+			name = "Accelerometer WatchKit App";
+			productName = "Accelerometer WatchKit App";
+			productReference = 85022F331BFEC96E004EE352 /* Accelerometer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		85022F411BFEC96E004EE352 /* Accelerometer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85022F501BFEC96E004EE352 /* Build configuration list for PBXNativeTarget "Accelerometer WatchKit Extension" */;
+			buildPhases = (
+				85022F3E1BFEC96E004EE352 /* Sources */,
+				85022F3F1BFEC96E004EE352 /* Frameworks */,
+				85022F401BFEC96E004EE352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Accelerometer WatchKit Extension";
+			productName = "Accelerometer WatchKit Extension";
+			productReference = 85022F421BFEC96E004EE352 /* Accelerometer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85022F191BFEC96D004EE352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HuLi;
+				TargetAttributes = {
+					85022F201BFEC96D004EE352 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					85022F321BFEC96E004EE352 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					85022F411BFEC96E004EE352 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8355Q939FC;
+					};
+				};
+			};
+			buildConfigurationList = 85022F1C1BFEC96D004EE352 /* Build configuration list for PBXProject "Accelerometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85022F181BFEC96D004EE352;
+			productRefGroup = 85022F221BFEC96D004EE352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85022F201BFEC96D004EE352 /* Accelerometer */,
+				85022F321BFEC96E004EE352 /* Accelerometer WatchKit App */,
+				85022F411BFEC96E004EE352 /* Accelerometer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85022F1F1BFEC96D004EE352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85022F2F1BFEC96D004EE352 /* LaunchScreen.storyboard in Resources */,
+				85022F2C1BFEC96D004EE352 /* Assets.xcassets in Resources */,
+				85022F2A1BFEC96D004EE352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85022F311BFEC96E004EE352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85022F3C1BFEC96E004EE352 /* Assets.xcassets in Resources */,
+				85022F3A1BFEC96E004EE352 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85022F401BFEC96E004EE352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85022F4C1BFEC96E004EE352 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85022F1D1BFEC96D004EE352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85022F271BFEC96D004EE352 /* ViewController.swift in Sources */,
+				85022F251BFEC96D004EE352 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85022F3E1BFEC96E004EE352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85022F4A1BFEC96E004EE352 /* ExtensionDelegate.swift in Sources */,
+				85022F481BFEC96E004EE352 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85022F361BFEC96E004EE352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85022F321BFEC96E004EE352 /* Accelerometer WatchKit App */;
+			targetProxy = 85022F351BFEC96E004EE352 /* PBXContainerItemProxy */;
+		};
+		85022F451BFEC96E004EE352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85022F411BFEC96E004EE352 /* Accelerometer WatchKit Extension */;
+			targetProxy = 85022F441BFEC96E004EE352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85022F281BFEC96D004EE352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85022F291BFEC96D004EE352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85022F2D1BFEC96D004EE352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85022F2E1BFEC96D004EE352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		85022F381BFEC96E004EE352 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85022F391BFEC96E004EE352 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85022F4E1BFEC96E004EE352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85022F4F1BFEC96E004EE352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85022F511BFEC96E004EE352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Accelerometer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HuLi.Accelerometer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		85022F521BFEC96E004EE352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Accelerometer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HuLi.Accelerometer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		85022F551BFEC96E004EE352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Accelerometer_WatchKit_Extension;
+				INFOPLIST_FILE = "Accelerometer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = HuLi.Accelerometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		85022F561BFEC96E004EE352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Accelerometer_WatchKit_Extension;
+				INFOPLIST_FILE = "Accelerometer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = HuLi.Accelerometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		85022F591BFEC96E004EE352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Accelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HuLi.Accelerometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85022F5A1BFEC96E004EE352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Accelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HuLi.Accelerometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85022F1C1BFEC96D004EE352 /* Build configuration list for PBXProject "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85022F4E1BFEC96E004EE352 /* Debug */,
+				85022F4F1BFEC96E004EE352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85022F501BFEC96E004EE352 /* Build configuration list for PBXNativeTarget "Accelerometer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85022F511BFEC96E004EE352 /* Debug */,
+				85022F521BFEC96E004EE352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85022F541BFEC96E004EE352 /* Build configuration list for PBXNativeTarget "Accelerometer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85022F551BFEC96E004EE352 /* Debug */,
+				85022F561BFEC96E004EE352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85022F581BFEC96E004EE352 /* Build configuration list for PBXNativeTarget "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85022F591BFEC96E004EE352 /* Debug */,
+				85022F5A1BFEC96E004EE352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85022F191BFEC96D004EE352 /* Project object */;
+}
